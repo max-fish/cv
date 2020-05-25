@@ -1,0 +1,7 @@
+.infoContainer{
+    height: 100%;
+    flex: 2;
+    background-color: black;
+    color: yellow;
+    overflow: hidden;
+}

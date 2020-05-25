@@ -1,0 +1,28 @@
+.timeline{
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-style: dashed;
+    width: 30px;
+}
+
+.line{
+    position: relative;
+    background-color: yellow;
+    height: 100%;
+    width: 3px;
+    margin: auto;
+}
+
+.initialDot{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    z-index: 1;
+}
