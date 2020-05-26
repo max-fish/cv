@@ -4,8 +4,8 @@ import './name.css';
 const Name = () => {
   return (
       <div className={'nameContainer'}>
-          <p className={'firstName'}>Max</p>
-          <p className={'lastName'}>Fishman</p>
+          <div className={'firstName'}>Max</div>
+          <div className={'lastName'}>Fishman</div>
       </div>
   )
 };

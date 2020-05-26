@@ -1,0 +1,38 @@
+.entry{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Nunito', sans-serif;
+}
+
+.entry:not(:first-child){
+    margin-top: 20px;
+}
+
+.entryYear{
+    position: absolute;
+    left: -75px;
+    font-weight: 300;
+    font-size: small;
+    width: 60px;
+    text-align: right;
+    word-break: break-word;
+}
+
+.entryText{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.entryTitle{
+    font-weight: 600;
+}
+
+.entryDot {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: black;
+    border-color: yellow;
+    border-width: 2px;
+    border-style: solid;
+}

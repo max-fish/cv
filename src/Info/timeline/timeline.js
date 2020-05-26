@@ -1,13 +1,17 @@
 import React from 'react';
 import './timeline.css';
-import TimelineEntry from "./timelineEntry/timelineEntry";
+import Entry from "./entry/entry";
+import Subtitle from "./subtitle/subtitle";
 
 const Timeline = () => {
     return (
         <div className={'timeline'}>
             <div className={'line'}/>
             <div className={'initialDot'}/>
-            <TimelineEntry/>
+            <div className={'content'}>
+                <Subtitle text={'Education'}/>
+                <Entry/>
+            </div>
         </div>
     )
 };
