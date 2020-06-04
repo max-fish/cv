@@ -1,5 +1,5 @@
 .infoContainer{
-    height: 100%;
+    height: available;
     flex: 2;
     background-color: black;
     color: yellow;

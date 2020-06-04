@@ -4,15 +4,16 @@
     height: 100%;
     margin-left: 120px;
     margin-top: 30px;
+    margin-bottom: 30px;
     width: 30px;
 }
 
 .line{
     position: relative;
     background-color: yellow;
-    height: 100%;
     width: 3px;
     margin: auto;
+    height: inherit;
 }
 
 .initialDot{
@@ -31,4 +32,10 @@
     top: 50px;
     display: flex;
     flex-direction: column;
+}
+
+.aboutMe{
+    margin-left: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
 }
