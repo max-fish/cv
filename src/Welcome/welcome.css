@@ -1,7 +1,8 @@
 .welcomeContainer{
+    position: sticky;
     display: flex;
     justify-content: center;
     flex: 1;
-    height: available;
+    height: 100%;
     background-color: yellow;
 }

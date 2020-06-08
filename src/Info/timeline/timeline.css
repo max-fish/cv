@@ -11,8 +11,8 @@
 .line{
     position: relative;
     background-color: yellow;
+    margin-left: 13px;
     width: 3px;
-    margin: auto;
     height: inherit;
 }
 

@@ -1,7 +1,10 @@
-.infoContainer{
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
     height: available;
     flex: 2;
     background-color: black;
     color: yellow;
-    overflow: hidden;
+    overflow: auto;
 }
