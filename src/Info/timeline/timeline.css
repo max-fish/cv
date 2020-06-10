@@ -2,18 +2,15 @@
     position: relative;
     display: flex;
     height: 100%;
-    margin-left: 120px;
-    margin-top: 30px;
-    margin-bottom: 30px;
     width: 30px;
 }
 
 .line{
     position: relative;
     background-color: yellow;
-    margin-left: 13px;
     width: 3px;
     height: inherit;
+    margin: auto;
 }
 
 .initialDot{

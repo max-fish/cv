@@ -1,28 +1,26 @@
-import React, {useEffect, useRef} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
+import withWrapper from "../wrapper/withWrapper";
 import './timeline.css';
 
-const Timeline = ({ children }) => {
-    const contentRef = useRef(null);
-    const timelineRef = useRef(null);
-
-    useEffect(() => {
-        timelineRef.current.style.height = contentRef.current.clientHeight + 50 + 'px';
-        timelineRef.current.style.width = contentRef.current.clientWidth + 'px';
-    }, []);
-
-    return (
-        <div ref={timelineRef} className={'timeline'}>
-            <div className={'line'}/>
-            <div className={'initialDot'}/>
-            <div ref={contentRef} className={'content'}>
-                {children}
+// eslint-disable-next-line react/display-name
+const Timeline = React.forwardRef((props, ref) => {
+    const Timeline = () => {
+        return (
+            <div className={'timeline'}>
+                <div className={'line'}/>
+                <div className={'initialDot'}/>
+                <div ref={ref} className={'content'}>
+                    {props.children}
+                </div>
             </div>
-        </div>
-    )
-};
+        )
+    };
 
-export default Timeline;
+    return <Timeline/>;
+});
+
+export default withWrapper(Timeline);
 
 Timeline.propTypes = {
   children: PropTypes.array

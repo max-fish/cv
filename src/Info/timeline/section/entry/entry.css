@@ -1,19 +1,16 @@
-.entry{
+.entry {
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     font-family: 'Nunito', sans-serif;
-}
-
-.entry:not(:nth-child(2)){
     margin-top: 10px;
 }
 
-.entryYear{
+.entryYear {
     position: absolute;
     left: -75px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 7px;
     font-weight: 300;
     font-size: small;
     width: 60px;
@@ -21,16 +18,24 @@
     word-break: break-word;
 }
 
-.entryText{
+.entryText {
     margin: auto auto auto 10px;
+}
+
+.entryTitle {
+    font-weight: 600;
     white-space: nowrap;
 }
 
-.entryTitle{
-    font-weight: 600;
+.entryDescription{
+    font-size: small;
+    white-space: pre-line;
 }
 
+
 .entryDot {
+    min-width: 26px;
+    min-height: 26px;
     width: 26px;
     height: 26px;
     border-radius: 100%;
