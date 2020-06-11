@@ -17,11 +17,11 @@ const Timeline = React.forwardRef((props, ref) => {
         )
     };
 
+    Timeline.propTypes = {
+        children: PropTypes.array
+    };
+
     return <Timeline/>;
 });
 
 export default withWrapper(Timeline);
-
-Timeline.propTypes = {
-  children: PropTypes.array
-};
