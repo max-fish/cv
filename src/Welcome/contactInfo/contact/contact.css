@@ -1,0 +1,17 @@
+.contactContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.contactContainer:not(:first-child){
+    margin-top: 5px;
+}
+
+.contactIcon{
+    width: 23px;
+    text-align: center;
+}
+
+.contactText{
+    margin-left: 10px;
+}
