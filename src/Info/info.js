@@ -69,8 +69,8 @@ const Info = () => {
                 <Section>
                     <Subtitle text={'Projects'}/>
                     <Entry yearInterval={'2019'} title={'NHS Pediatric Liver Center Website'}
-                           description={'Beautiful front-end for an easy learning experience for patients with chronic liver conditions; secure back-end for editing content.\nhttps://nhs-liver-disease.herokuapp.com/'}/>
-                           <Entry yearInterval={'2018 -2019'} title={'Kanban Board GUI Desktop App'} description={''}/>
+                           description={'Beautiful front-end for an easy learning experience for patients with chronic liver conditions; secure back-end for editing content.\nhttps://nhs-liver-disease.herokuapp.com'}/>
+                    <Entry yearInterval={'2018 -2019'} title={'Kanban Board GUI Desktop App'} description={''}/>
                 </Section>
             </Timeline>
         </div>

@@ -11,7 +11,7 @@ const Timeline = React.forwardRef((props, ref) => {
                 <div className={'line'}/>
                 <div className={'initialDot'}/>
                 <div ref={ref} className={'content'}>
-                    {props.children}
+                        {props.children}
                 </div>
             </div>
         )
