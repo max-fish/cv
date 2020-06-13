@@ -28,13 +28,13 @@ const Info = () => {
                 </Section>
                 <Section>
                     <Subtitle text={'Education'}/>
-                    <Entry yearInterval={'2018 -PRESENT'} title={'King\'s College London'}
+                    <Entry yearInterval={'2018 -NOW'} title={'King\'s College London'}
                            description={'Computer Science Msci'}/>
                     <Entry yearInterval={'2014 -2018'} title={'Henry M. Gunn High School'}/>
                 </Section>
                 <Section>
                     <Subtitle text={'Experience'}/>
-                    <Entry yearInterval={'2019'} title={'Android App Development Intern'} description={''}/>
+                    <Entry yearInterval={'2019'} title={'Android App Development\nIntern'} description={''}/>
                     <Entry yearInterval={'2018'} title={'Programmer'} description={''}/>
                 </Section>
             </Timeline>
@@ -42,7 +42,7 @@ const Info = () => {
                 <Section>
                     <Subtitle text={'Line Changes'}/>
                     <PieChart
-                        style={{height: 'fit-content', width: '330px', marginLeft: '20px'}}
+                        style={{height: 'fit-content', width: '320px', marginLeft: '20px'}}
                         data={data}
                         label={({dataEntry}) => dataEntry.title}
                         labelStyle={(index) => ({
@@ -57,7 +57,7 @@ const Info = () => {
                         })}
                         labelPosition={110}
                         lineWidth={15}
-                        radius={45}
+                        radius={40}
                         paddingAngle={5}
                         startAngle={PieChart.defaultProps.startAngle}
                         viewBoxSize={PieChart.defaultProps.viewBoxSize}

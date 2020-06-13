@@ -1,7 +1,7 @@
 .infoContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: available;
     flex: 2;
     background-color: black;

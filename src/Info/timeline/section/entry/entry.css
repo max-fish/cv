@@ -5,12 +5,13 @@
     justify-content: space-between;
     font-family: 'Nunito', sans-serif;
     margin-top: 10px;
+    min-width: 250px;
 }
 
 .entryYear {
     position: absolute;
     left: -75px;
-    top: 7px;
+    top: 6px;
     font-weight: 300;
     font-size: small;
     width: 60px;
@@ -24,12 +25,12 @@
 
 .entryTitle {
     font-weight: 600;
-    white-space: nowrap;
 }
 
 .entryDescription{
     font-size: small;
     white-space: pre-line;
+    max-width: 250px;
 }
 
 
