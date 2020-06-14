@@ -1,0 +1,15 @@
+.builtWithReactContainer{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.builtWithReactText{
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: small;
+    margin-left: 5px;
+}
