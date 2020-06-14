@@ -30,12 +30,12 @@ const Info = () => {
                     <Subtitle text={'Education'}/>
                     <Entry yearInterval={'2018 -NOW'} title={'King\'s College London'}
                            description={'Computer Science Msci'}/>
-                    <Entry yearInterval={'2014 -2018'} title={'Henry M. Gunn High School'}/>
+                    <Entry yearInterval={'2014 -2018'} title={'Henry M. Gunn High School'} description={'AP Calculus BC: 5\nAP Computer Science: 4\nSAT II: 790'}/>
                 </Section>
                 <Section>
                     <Subtitle text={'Experience'}/>
-                    <Entry yearInterval={'2019'} title={'Android App Development\nIntern'} description={''}/>
-                    <Entry yearInterval={'2018'} title={'Programmer'} description={''}/>
+                    <Entry yearInterval={'2019'} title={'Android App Development\nIntern, AB Soft Ukraine'} description={'Made an app that sorts articles from NEWS API by source, date, category, and user query.'}/>
+                    <Entry yearInterval={'2018'} title={'Programmer, Guzik Technical Enterprises'} description={'Wrote a Java GUI based parsing algorithm that enumerates errors embedded in hardware production files.'}/>
                 </Section>
             </Timeline>
             <Timeline>
@@ -70,7 +70,8 @@ const Info = () => {
                     <Subtitle text={'Projects'}/>
                     <Entry yearInterval={'2019'} title={'NHS Pediatric Liver Center Website'}
                            description={'Beautiful front-end for an easy learning experience for patients with chronic liver conditions; secure back-end for editing content.\nhttps://nhs-liver-disease.herokuapp.com'}/>
-                    <Entry yearInterval={'2018 -2019'} title={'Kanban Board GUI Desktop App'} description={''}/>
+                    <Entry yearInterval={'2018 -2019'} title={'Kanban Board GUI'} description={'Gradle-packaged JavaFX GUI that is handy for keeping track of team progress in an agile fashion. Verified by automated junit testing.\nhttps://github.com/max-fish/kanban-board-gui'}/>
+                    <Entry yearInterval={'2018'} title={'Airbnb GUI'} description={'JavaFX GUI that organizes properties into a heat map and illustrates their name, location, price, and image, which is delivered by Bing Maps API\nhttps://github.com/max-fish/Airbnb-gui'}/>
                 </Section>
             </Timeline>
         </div>
