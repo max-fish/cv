@@ -30,11 +30,11 @@ const Info = () => {
                     <Subtitle text={'Education'}/>
                     <Entry yearInterval={'2018 -NOW'} title={'King\'s College London'}
                            description={'Computer Science Msci'}/>
-                    <Entry yearInterval={'2014 -2018'} title={'Henry M. Gunn High School'} description={'AP Calculus BC: 5\nAP Computer Science: 4\nSAT II: 790'}/>
+                    <Entry yearInterval={'2014 -2018'} title={'Henry M. Gunn High School'} description={'AP Calculus BC: 5\nAP Computer Science: 4\nSAT II Math: 790'}/>
                 </Section>
                 <Section>
                     <Subtitle text={'Experience'}/>
-                    <Entry yearInterval={'2019'} title={'Android App Development\nIntern, AB Soft Ukraine'} description={'Made an app that sorts articles from NEWS API by source, date, category, and user query.'}/>
+                    <Entry yearInterval={'2019'} title={'Android App Development\nIntern, AB Soft Ukraine'} description={'Made an app that sorts articles from NEWS API by source, date, category, and user query.\nhttps://github.com/max-fish/News'}/>
                     <Entry yearInterval={'2018'} title={'Programmer, Guzik Technical Enterprises'} description={'Wrote a Java GUI based parsing algorithm that enumerates errors embedded in hardware production files.'}/>
                 </Section>
             </Timeline>
