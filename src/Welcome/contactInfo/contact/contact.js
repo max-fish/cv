@@ -1,15 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Linkify from "react-linkify";
 import './contact.css';
 
 const Contact = ({children, text}) => {
     return (
-        <div className={'contactContainer'}>
-            <div className={'contactIcon'}>
-            {children}
+        <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+            <a target={'blank'} href={decoratedHref} key={key} style={{color: 'black', textDecoration: 'none'}}>
+                {decoratedText}
+            </a>
+        )}>
+            <div className={'contactContainer'}>
+                <div className={'contactIcon'}>
+                    {children}
+                </div>
+                <div className={'contactText'}>{text}</div>
             </div>
-            <div className={'contactText'}>{text}</div>
-        </div>
+        </Linkify>
     )
 };
 
