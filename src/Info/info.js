@@ -69,9 +69,9 @@ const Info = () => {
                 <Section>
                     <Subtitle text={'Projects'}/>
                     <Entry yearInterval={'2019'} title={'NHS Pediatric Liver Center Website'}
-                           description={'Beautiful front-end for an easy learning experience for patients with chronic liver conditions; secure back-end for editing content.\nhttps://nhs-liver-disease.herokuapp.com'}/>
-                    <Entry yearInterval={'2018 -2019'} title={'Kanban Board GUI'} description={'Gradle-packaged JavaFX GUI that is handy for keeping track of team progress in an agile fashion. Verified by automated junit testing.\nhttps://github.com/max-fish/kanban-board-gui'}/>
-                    <Entry yearInterval={'2018'} title={'Airbnb GUI'} description={'JavaFX GUI that organizes properties into a heat map and illustrates their name, location, price, and image, which is delivered by Bing Maps API\nhttps://github.com/max-fish/Airbnb-gui'}/>
+                           description={'Led the front-end team to developing an easy learning experience for patients with chronic liver conditions in ReactJS. Tested with Jest/Puppeteer. \nhttps://nhs-liver-disease.herokuapp.com'}/>
+                    <Entry yearInterval={'2018 -2019'} title={'Kanban Board GUI'} description={'Managed UI/UX of a JavaFX GUI that is handy for keeping track of team progress in an agile fashion. Verified by automated junit testing.\nhttps://github.com/max-fish/kanban-board-gui'}/>
+                    <Entry yearInterval={'2018'} title={'Airbnb GUI'} description={'Implemented property cards of a JavaFX GUI that organizes properties into a heat map and illustrates their name, location, price, and image, which is delivered by Bing Maps API.\nhttps://github.com/max-fish/Airbnb-gui'}/>
                 </Section>
             </Timeline>
         </div>
