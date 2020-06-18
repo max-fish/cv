@@ -21,7 +21,7 @@ const Info = () => {
             <Timeline>
                 <Section>
                     <Subtitle text={'Me'}/>
-                    <div className={'aboutMe'}>Second-year college student with a passion for Java GUI as well as web
+                    <div className={'aboutMe'}>Second-year college student with a passion for Java GUIs as well as web
                         and cross-platform/native
                         mobile app development.
                     </div>
@@ -30,7 +30,7 @@ const Info = () => {
                     <Subtitle text={'Education'}/>
                     <Entry yearInterval={'2018 -NOW'} title={'King\'s College London'}
                            description={'Computer Science Msci'}/>
-                    <Entry yearInterval={'2014 -2018'} title={'Henry M. Gunn High School'} description={'AP Calculus BC: 5\nAP Computer Science: 4\nSAT II Math: 790'}/>
+                    <Entry yearInterval={'2014 -2018'} title={'Henry M. Gunn High School'} description={'AP Calculus BC: 5 / 5\nAP Computer Science: 4 / 5\nSAT II Math: 790 / 800'}/>
                 </Section>
                 <Section>
                     <Subtitle text={'Experience'}/>
@@ -70,8 +70,8 @@ const Info = () => {
                     <Subtitle text={'Projects'}/>
                     <Entry yearInterval={'2019 -NOW'} title={'Social Media App'} description={'Cross-platform social media app that attempts to connect people by their passion of exploring the world. Currently being written in Flutter with Google Firestore for the back-end.'}/>
                     <Entry yearInterval={'2019'} title={'NHS Pediatric Liver Center Website'}
-                           description={'Led the front-end team to developing an easy learning experience for patients with chronic liver conditions using the MERN stack and MongoDB for storing content. Tested with Jest/Puppeteer.\nhttps://nhs-liver-disease.herokuapp.com'}/>
-                    <Entry yearInterval={'2018 -2019'} title={'Kanban Board GUI'} description={'Managed UI/UX of a JavaFX GUI that is handy for keeping track of team progress in an agile fashion. Verified by automated junit testing.\nhttps://github.com/max-fish/kanban-board-gui'}/>
+                           description={'Led the front-end team to developing an easy learning experience for patients with chronic liver conditions using the MERN stack; content was stored using MongoDB. Tested with Jest/Puppeteer.\nhttps://nhs-liver-disease.herokuapp.com'}/>
+                    <Entry yearInterval={'2018 -2019'} title={'Kanban Board GUI'} description={'Managed UI/UX of a JavaFX GUI that is handy for keeping track of team progress in an agile fashion. Verified by automated JUnit/TestFX testing.\nhttps://github.com/max-fish/kanban-board-gui'}/>
                 </Section>
             </Timeline>
         </div>
