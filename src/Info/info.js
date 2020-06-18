@@ -68,10 +68,10 @@ const Info = () => {
                 </Section>
                 <Section>
                     <Subtitle text={'Projects'}/>
+                    <Entry yearInterval={'2019 -NOW'} title={'Social Media App'} description={'Cross-platform social media app that attempts to connect people by their passion of exploring the world. Currently being written in Flutter with Google Firestore for the back-end.'}/>
                     <Entry yearInterval={'2019'} title={'NHS Pediatric Liver Center Website'}
-                           description={'Led the front-end team to developing an easy learning experience for patients with chronic liver conditions in ReactJS. Tested with Jest/Puppeteer. \nhttps://nhs-liver-disease.herokuapp.com'}/>
+                           description={'Led the front-end team to developing an easy learning experience for patients with chronic liver conditions using the MERN stack and MongoDB for storing content. Tested with Jest/Puppeteer.\nhttps://nhs-liver-disease.herokuapp.com'}/>
                     <Entry yearInterval={'2018 -2019'} title={'Kanban Board GUI'} description={'Managed UI/UX of a JavaFX GUI that is handy for keeping track of team progress in an agile fashion. Verified by automated junit testing.\nhttps://github.com/max-fish/kanban-board-gui'}/>
-                    <Entry yearInterval={'2018'} title={'Airbnb GUI'} description={'Implemented property cards of a JavaFX GUI that organizes properties into a heat map and illustrates their name, location, price, and image, which is delivered by Bing Maps API.\nhttps://github.com/max-fish/Airbnb-gui'}/>
                 </Section>
             </Timeline>
         </div>

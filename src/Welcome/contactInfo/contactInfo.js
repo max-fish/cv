@@ -14,6 +14,12 @@ const ContactInfo = () => {
             <Contact text={'CA / London'}>
                 <i className="fas fa-map-marker-alt fa-lg"/>
             </Contact>
+            <Contact text={'https://www.linkedin.com/in/maxim-fishman/'}>
+                <i className="fab fa-linkedin-in"/>
+            </Contact>
+            <Contact text={'https://github.com/max-fish'}>
+                <i className="fab fa-github"/>
+            </Contact>
         </div>
     )
 };
