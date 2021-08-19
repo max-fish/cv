@@ -1,3 +1,6 @@
 .contactInfoContainer{
-    margin-top: 100px;
+    margin-top: 50px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
 }

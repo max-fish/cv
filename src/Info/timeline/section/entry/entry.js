@@ -6,7 +6,7 @@ import './entry.css';
 const Entry = ({ yearInterval, title, description }) => {
     return (
         <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
-            <a target={'blank'} href={decoratedHref} key={key} style={{color: 'yellow', textDecoration: 'none'}}>
+            <a target={'blank'} href={decoratedHref} key={key} style={{color: 'black', textDecoration: 'none'}}>
                 {decoratedText}
             </a>
         )}>

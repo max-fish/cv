@@ -7,7 +7,7 @@
 
 .line{
     position: relative;
-    background-color: yellow;
+    background-color: black;
     width: 3px;
     height: inherit;
     margin: auto;
@@ -17,7 +17,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-color: yellow;
+    background-color: black;
     width: 30px;
     height: 30px;
     border-radius: 100%;
@@ -34,5 +34,5 @@
 .aboutMe{
     margin-left: 40px;
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }

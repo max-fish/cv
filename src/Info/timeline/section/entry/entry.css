@@ -12,7 +12,7 @@
     position: absolute;
     left: -75px;
     top: 6px;
-    font-weight: 300;
+    font-weight: 600;
     font-size: small;
     width: 60px;
     text-align: right;
@@ -24,11 +24,12 @@
 }
 
 .entryTitle {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .entryDescription{
     font-size: small;
+    font-weight: 400;
     white-space: pre-line;
     max-width: 250px;
 }
@@ -40,8 +41,8 @@
     width: 26px;
     height: 26px;
     border-radius: 100%;
-    background-color: black;
-    border-color: yellow;
+    background-color: yellow;
+    border-color: black;
     border-width: 2px;
     border-style: solid;
 }

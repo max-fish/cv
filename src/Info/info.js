@@ -3,17 +3,7 @@ import Timeline from "./timeline/timeline";
 import Section from "./timeline/section/section";
 import Subtitle from "./timeline/section/subtitle/subtitle";
 import Entry from "./timeline/section/entry/entry";
-import {PieChart} from 'react-minimal-pie-chart';
 import './info.css';
-
-const data = [
-    {title: 'Java (24001)', value: 24001, color: '#b07219'},
-    {title: 'Javascript (72297)', value: 72297, color: '#f1e05a'},
-    {title: 'Dart (5914)', value: 5914, color: '#00b4ab'},
-    {title: 'Python (501)', value: 501, color: '#3572a5'},
-    {title: 'C++ (3263)', value: 3263, color: '#f34b7d'},
-    {title: 'Scala (3066)', value: 3066, color: '#c22d40'}
-];
 
 const Info = () => {
     return (
@@ -21,7 +11,7 @@ const Info = () => {
             <Timeline>
                 <Section>
                     <Subtitle text={'Me'}/>
-                    <div className={'aboutMe'}>Second-year college student with a passion for Java GUIs as well as web
+                    <div className={'aboutMe'}>Computer Science student and software engineer with a passion for Java GUIs as well as web
                         and cross-platform/native
                         mobile app development.
                     </div>
@@ -34,44 +24,18 @@ const Info = () => {
                 </Section>
                 <Section>
                     <Subtitle text={'Experience'}/>
-                    <Entry yearInterval={'2019'} title={'Android App Development\nIntern, AB Soft Ukraine'} description={'Made an app that sorts articles from NEWS API by source, date, category, and user query.\nhttps://github.com/max-fish/News'}/>
-                    <Entry yearInterval={'2018'} title={'Programmer, Guzik Technical Enterprises'} description={'Wrote a Java GUI based parsing algorithm that enumerates errors embedded in hardware production files.'}/>
+                    <Entry yearInterval={'2019'} title={'Android App Development\nIntern, AB Soft Ukraine'} description={'Developed an app that sorts articles from NEWS API by source, date, category, and user query.\nhttps://github.com/max-fish/News'}/>
+                    <Entry yearInterval={'2017'} title={'Programmer, Guzik Technical Enterprises USA'} description={'Wrote a Java GUI based parsing algorithm that enumerates errors embedded in hardware production files.'}/>
                 </Section>
             </Timeline>
             <Timeline>
                 <Section>
-                    <Subtitle text={'Line Changes'}/>
-                    <PieChart
-                        style={{height: 'fit-content', width: '320px', marginLeft: '20px'}}
-                        data={data}
-                        label={({dataEntry}) => dataEntry.title}
-                        labelStyle={(index) => ({
-                            fill: data[index].color,
-                            fontSize: '7px',
-                            fontFamily: 'Nunito, sans-serif',
-                            fontWeight: '300',
-                            wordBreak: 'break-word',
-                            wordWrap: 'break-word',
-                            width: '2px',
-                            borderStyle: 'dashed'
-                        })}
-                        labelPosition={110}
-                        lineWidth={15}
-                        radius={40}
-                        paddingAngle={5}
-                        startAngle={PieChart.defaultProps.startAngle}
-                        viewBoxSize={PieChart.defaultProps.viewBoxSize}
-                        center={PieChart.defaultProps.center}
-                        animationDuration={PieChart.defaultProps.animationDuration}
-                        animationEasing={PieChart.defaultProps.animationEasing}
-                    />
-                </Section>
-                <Section>
                     <Subtitle text={'Projects'}/>
-                    <Entry yearInterval={'2019 -NOW'} title={'Social Media App'} description={'Cross-platform social media app that attempts to connect people by their passion of exploring the world. Currently being written in Flutter with Google Firestore for the back-end.'}/>
-                    <Entry yearInterval={'2019'} title={'NHS Pediatric Liver Center Website'}
-                           description={'Led the front-end team to developing an easy learning experience for patients with chronic liver conditions using the MERN stack; content was stored using MongoDB. Tested with Jest/Puppeteer.\nhttps://nhs-liver-disease.herokuapp.com'}/>
-                    <Entry yearInterval={'2018 -2019'} title={'Kanban Board GUI'} description={'Managed UI/UX of a JavaFX GUI that is handy for keeping track of team progress in an agile fashion. Verified by automated JUnit/TestFX testing.\nhttps://github.com/max-fish/kanban-board-gui'}/>
+                    <Entry yearInterval={'2020 -NOW'} title={'AcornVT'} description={'Consulting the mobile app team and developing a content management system, which provides users with locations of farms on an interactive map.\nApp in beta for iOS: https://testflight.apple.com/join/EytHIys6\nCMS: https://acornvt-261b9.web.app/'}/>
+                    <Entry yearInterval={'2020'} title={'NHS Pediatric Liver Center Website'}
+                           description={'Led the front-end team to develop a comfortable learning experience for patients with chronic liver conditions by supervising all design decisions. Technologies used: MERN stack, MongoDB, tested with Jest / Puppeteer.\nhttps://nhs-liver-disease.herokuapp.com'}/>
+                    <Entry yearInterval={'2019 -NOW'} title={'Social Media App'} description={'Building a cross-platform social media app with cutting-edge Neumorphic design that attempts to connect people by their passion for exploring the world. Currently being written in Flutter with Google Firestore for the back-end.'}/>
+                    <Entry yearInterval={'2019 -2020'} title={'Kanban Board GUI'} description={'Managed UI / UX by implementing industry-standard Google Material Design of a JavaFX GUI that is handy for keeping track of team progress in an agile fashion. Verified by automated JUnit / TestFX testing.\nhttps://github.com/max-fish/kanban-board-gui'}/>
                 </Section>
             </Timeline>
         </div>

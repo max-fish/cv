@@ -6,7 +6,7 @@ import './contact.css';
 const Contact = ({children, text}) => {
     return (
         <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
-            <a target={'blank'} href={decoratedHref} key={key} style={{color: 'black', textDecoration: 'none'}}>
+            <a target={'blank'} href={decoratedHref} key={key} style={{color: 'yellow', textDecoration: 'none'}}>
                 {decoratedText}
             </a>
         )}>
