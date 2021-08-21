@@ -18,8 +18,9 @@ const Info = () => {
                 </Section>
                 <Section>
                     <Subtitle text={'Education'}/>
-                    <Entry yearInterval={'2018 -NOW'} title={'King\'s College London'}
-                           description={'Computer Science Msci'}/>
+                    <Entry yearInterval={'2021 -NOW'} title={'Imperial College London'} description={'MSc Computing (Software Engineering)'} />
+                    <Entry yearInterval={'2018 -2021'} title={'King\'s College London'}
+                           description={'Computer Science BSc, First Class Honours'}/>
                     <Entry yearInterval={'2014 -2018'} title={'Henry M. Gunn High School'} description={'AP Calculus BC: 5 / 5\nAP Computer Science: 4 / 5\nSAT II Math: 790 / 800'}/>
                 </Section>
                 <Section>
