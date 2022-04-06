@@ -9,7 +9,7 @@ const withWrapper = (ComponentToBeWrapped) => {
         useEffect(() => {
            wrapperRef.current.style.height = contentRef.current.clientHeight + 50 + 'px';
            wrapperRef.current.style.width = contentRef.current.clientWidth + 'px';
-        }, []);
+        });
 
         return(
             <div className={'wrapper'} ref={wrapperRef}>

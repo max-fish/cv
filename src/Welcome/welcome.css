@@ -4,12 +4,11 @@
     flex-direction: column;
     flex: 1;
     height: available;
-    background-color: yellow;
 }
 
 .me{
     position: relative;
-    background-color: black;
+    background-color: #003e74;
     display: flex;
     flex-direction: column;
     justify-content: center;

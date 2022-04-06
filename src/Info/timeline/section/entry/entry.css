@@ -32,6 +32,7 @@
     font-weight: 400;
     white-space: pre-line;
     max-width: 250px;
+    word-wrap: break-word;
 }
 
 
@@ -41,8 +42,8 @@
     width: 26px;
     height: 26px;
     border-radius: 100%;
-    background-color: yellow;
-    border-color: black;
+    background-color: white;
+    border-color: #003e74;
     border-width: 2px;
     border-style: solid;
 }

@@ -1,7 +1,7 @@
 .contactContainer{
     display: flex;
     flex-direction: row;
-    color: yellow;
+    color: white;
     width: fit-content;
 }
 

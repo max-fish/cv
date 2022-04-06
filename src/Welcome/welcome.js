@@ -10,7 +10,7 @@ import Timeline from "../Info/timeline/timeline";
 
 const data = [
     {title: 'Java (24001)', value: 24001, color: 'brown'},
-    {title: 'Javascript (72297)', value: 72297, color: '#9400D3'},
+    {title: 'JS (72297)', value: 72297, color: '#9400D3'},
     {title: 'Dart (5914)', value: 5914, color: 'blue'},
     {title: 'Python (501)', value: 501, color: 'black'},
     {title: 'C++ (3263)', value: 3263, color: 'deeppink'},
@@ -33,23 +33,17 @@ const Welcome = () => {
                     label={({dataEntry}) => dataEntry.title}
                     labelStyle={(index) => ({
                         fill: data[index].color,
-                        fontSize: '7px',
+                        fontSize: '8px',
                         fontFamily: 'Nunito, sans-serif',
                         fontWeight: '700',
                         wordBreak: 'break-word',
                         wordWrap: 'break-word',
                         width: '2px',
-                        borderStyle: 'dashed'
                     })}
                     labelPosition={110}
                     lineWidth={15}
-                    radius={40}
+                    radius={50}
                     paddingAngle={5}
-                    startAngle={PieChart.defaultProps.startAngle}
-                    viewBoxSize={PieChart.defaultProps.viewBoxSize}
-                    center={PieChart.defaultProps.center}
-                    animationDuration={PieChart.defaultProps.animationDuration}
-                    animationEasing={PieChart.defaultProps.animationEasing}
                 />
                 <div style={{marginLeft: '35px', fontFamily: 'Nunito, sans-serif', fontSize: 'small', wordWrap: 'break-word'}}>*values are determined by line additions + subtractions, which are tracked by Github Insights</div>
             </Section>

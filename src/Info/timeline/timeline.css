@@ -7,7 +7,7 @@
 
 .line{
     position: relative;
-    background-color: black;
+    background-color: #003e74;
     width: 3px;
     height: inherit;
     margin: auto;
@@ -17,7 +17,8 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-color: black;
+    background-color: #003e74;
+    border-color: white;
     width: 30px;
     height: 30px;
     border-radius: 100%;
